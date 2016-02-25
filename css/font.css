@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'source_code_prolight';
+    src: url('font/sourcecodepro-light-webfont.eot');
+    src: url('font/sourcecodepro-light-webfont.eot?#iefix') format('embedded-opentype'),
+           url('font/sourcecodepro-light-webfont.woff2') format('woff2'),
+           url('font/sourcecodepro-light-webfont.woff') format('woff'),
+           url('font/sourcecodepro-light-webfont.ttf') format('truetype'),
+           url('font/sourcecodepro-light-webfont.svg#source_code_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

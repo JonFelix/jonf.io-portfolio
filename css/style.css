@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(16, 18, 24);
+    font-family: "source_code_prolight";
+    font-size: 16px;
+    color: rgb(220, 220, 220);
+    height: 100%;
+    overflow: hidden
+}
+
+h1 {
+    font-family: "source_code_prolight";
+    font-size: 32px;
+    color: rgb(165, 255, 212);
+}
+
+h2 {
+    font-family: "source_code_prolight";
+    font-size: 24px;
+    color: rgb(220, 220, 220);
+}
+
+p {
+    font-family: "source_code_prolight";
+    font-size: 16px;
+    color: rgb(220, 220, 220);
+}
+
+#img {
+    border: 1px rgb(165, 255, 212) solid;
+    background-image: url("../resources/pic.jpg");
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.overlay {
+    background-color: rgba(16, 18, 24, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.lefttext {
+    float: left;
+    width: 298px;
+}
+
+.footerright {
+    left: 200px;
+    position: absolute;
+}
+
+.leftline {
+    border-left: 2px rgb(25, 27, 34) solid;
+    padding-left: 5px;
+}
+
+#top {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
+
+#left {
+    height: 100%;
+    width: 200px;
+    top: 100px;
+    position: absolute;
+}
+
+#menu {
+    top: 50px;
+    left: 20px;
+    position: relative;
+}
+
+#content {
+    top: 100px;
+    left: 200px;
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+#bottom {
+    height: 100px;
+    width: 350px;
+    top: 700px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(134, 224, 240);
+    font-family: "source_code_prolight";
+    font-size: 16px;
+}
